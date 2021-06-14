@@ -1,0 +1,128 @@
+/* 
+bodyのスタイル
+*/
+
+body{
+  margin: 0;
+}
+
+/* 
+共通のスタイル
+*/
+
+.color-pink{
+  color: #DF7FE6;
+}
+
+.sub-title{
+  font-size: 30px;
+  padding: 40px 0 30px;
+}
+/* 
+headerのスタイル
+*/
+
+header{
+  box-shadow: 10px 5px 5px red;
+  width: 100%;
+}
+
+header h1{
+  font-size: 45px;
+  margin: 20px 20px;
+  
+}
+
+header h1 a{
+text-decoration: none;
+color: #000;
+}
+
+/* 
+mainのスタイル
+*/
+
+.block-main{
+  background-color:#FDF2FD ;
+  width: 100%;
+}
+
+/* 
+profileのスタイル
+*/
+
+.profile-box{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+
+.profile-box li{
+list-style: none;
+
+}
+
+.text-list h2{
+  font-size: 40px;
+  font-weight: normal;
+  }
+
+.profile-box p{
+  font-size: 20px;
+  color: #1CCEAC;
+}
+
+.icon-list{
+  list-style: none;
+  width: 100%;
+  max-width: 247px;
+  margin: 30px auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-list ul{
+  display: flex;
+  text-align: center;
+}
+
+.icon-list ul li {
+  margin-right: 60px;
+}
+
+.icon-list ul li:last-child{
+  margin-right: 0;
+}
+
+/* 
+favoriteのスタイル
+*/
+
+.favorite-box{
+  text-align: center;
+}
+
+.favorite-contents img{
+  border: solid 1px #A07022;
+}
+
+.favorite-contents{
+  font-family: Krungthep;
+  margin-bottom: 30px;
+}
+
+.favorite-contents h3{
+  font-size: 50px;
+}
+
+.favorite-contents p{
+  background-color: #F8DC05;
+}
+
+.favorite-contents p a{
+  text-decoration: none;font-size: 20px;
+  
+}
